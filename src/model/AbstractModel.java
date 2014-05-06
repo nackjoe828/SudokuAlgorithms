@@ -6,7 +6,7 @@ import javax.swing.event.ChangeListener;
 
 
 public abstract class AbstractModel implements Model{
-	protected static final int SLEEP_TIME = 0;
+	protected static final int SLEEP_TIME = 100;
 	
 	public AbstractModel(){
 		grid = new Grid[3][3];
